@@ -78,4 +78,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.each do |attribute, value|
       if value.include? "BBQ"
         new_arr << value
+      end
+    end
+  end
 end
